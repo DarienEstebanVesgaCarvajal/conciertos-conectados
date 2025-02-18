@@ -1,4 +1,6 @@
 :root {  
+    --color-white: #FFFFFF; /* White Background */
+    --color-black: #000000; /* Black Text */
     --color-mint: #E4FFEA; /* Mint Color Filters */
     --color-gray: rgba(45, 38, 75, 0.3); /* Gray Icons n-e */
     --color-peach: #FFECEC; /* Peach Color Filters */

@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
 footer{
     display: flex;
     align-items: center;
@@ -18,7 +23,6 @@ footer img{
 }
 
 header{
-    background: var(--color-orange);
     padding: 9vw 3vw 9vw 5vw;
 }
 header h1{

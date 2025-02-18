@@ -1,30 +1,19 @@
-:root{
-    --lorem-orange: #DB8C6A;
-    --lorem-purple: #845FB3;
-    --lorem-green: #8CBDAE;
-    --lorem-white: #EBEBFF;
-    --lorem-black: #111127;
-    --lorem-gray: #C0C0CF;
-    --lorem-blue: #225CB7;
+:root {  
+    --color-mint: #E4FFEA; /* Mint Color Filters */
+    --color-gray: rgba(45, 38, 75, 0.3); /* Gray Icons n-e */
+    --color-peach: #FFECEC; /* Peach Color Filters */
+    --color-orange: #EC441E;  /* Orange Price n-e */
+    --color-purple: #761CBC; /*Purple title */
+    --color-light-yellow: #FFF5D7; /* Ligth Yellow Filters*/
+    --color-ligth-purple: #EDE9FF; /* Ligth Purple Filters */
+    --color-purple-transparent: rgba(45, 38, 75, 0.5); /* Transparent Purple t-e */
 }
 
 @font-face {
-    font-family: "lorem-handwritten";
-    src: url(../storage/fonts/BalsamiqSans.ttf);
+    font-family: "Inter-Regular";
+    src: url(../storage/fonts/Inter_18pt-Regular.ttf);
 }
 @font-face {
-    font-family: "lorem-dotted";
-    src: url(../storage/fonts/Codystar.ttf);
-}
-@font-face {
-    font-family: "lorem-indie";
-    src: url(../storage/fonts/IndieFlower.ttf);
-}
-@font-face {
-    font-family: "lorem-formal";
-    src: url(../storage/fonts/LeagueSpartan.ttf);
-}
-@font-face {
-    font-family: "lorem-futuristic";
-    src: url(../storage/fonts/Quantico.ttf);
+    font-family: "Inter-SemiBold";
+    src: url(../storage/fonts/Inter_18pt-SemiBold.ttf);
 }

@@ -4,3 +4,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+footer{
+    /* background: var(--lorem-blue); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+footer img{
+    height: 6vw;
+}

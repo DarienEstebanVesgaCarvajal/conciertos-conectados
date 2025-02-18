@@ -6,7 +6,6 @@
 }
 
 footer{
-    /* background: var(--lorem-blue); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,4 +15,15 @@ footer{
 }
 footer img{
     height: 6vw;
+}
+
+header{
+    background: var(--color-orange);
+    padding: 9vw 3vw 9vw 5vw;
+}
+header h1{
+    font-family: "Inter-SemiBold";
+}
+header h1 span{
+    color: var(--color-purple);
 }

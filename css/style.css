@@ -1,6 +1,52 @@
 @import url(variables.css);
+
+            /*** All ***/
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+            /*** Body ***/
+
+body{
+    height: 100vh; 
+    background: var(--background-color);  
+}
+
+            /*** Header ***/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+header img{
+    padding: 3vw;
+    border-radius: 1vw;
+    background: var(--transparent);
+    height: 6vw;
+}
+
+            /*** Section ***/
+
+section{
+    width: 80%;
+    max-width: 600px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+section::-webkit-scrollbar{
+    display: none;
+}
+section img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
 }

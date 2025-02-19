@@ -1,0 +1,21 @@
+:root {  
+    --color-white: #FFFFFF; /* White Background */
+    --color-black: #000000; /* Black Text */
+    --color-mint: #E4FFEA; /* Mint Color Filters */
+    --color-gray: rgba(45, 38, 75, 0.3); /* Gray Icons n-e */
+    --color-peach: #FFECEC; /* Peach Color Filters */
+    --color-orange: #EC441E;  /* Orange Price n-e */
+    --color-purple: #761CBC; /*Purple title */
+    --color-light-yellow: #FFF5D7; /* Ligth Yellow Filters*/
+    --color-ligth-purple: #EDE9FF; /* Ligth Purple Filters */
+    --color-purple-transparent: rgba(45, 38, 75, 0.5); /* Transparent Purple t-e */
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../storage/fonts/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../storage/fonts/Inter_18pt-SemiBold.ttf);
+}

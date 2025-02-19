@@ -1,25 +1,13 @@
 :root{
     --background-color: linear-gradient(to bottom right, #91B5FD 0%, #F0DDFF 100%);
-    --transparent: rgba(255, 255, 255, 0.2);
+    --transparent: rgba(255, 255, 255, 0.2); 
 }
 
 @font-face {
-    font-family: "lorem-handwritten";
-    src: url(../storage/fonts/BalsamiqSans.ttf);
+    font-family: "Inter-Regular";
+    src: url(../storage/fonts/Inter_18pt-Regular.ttf);
 }
 @font-face {
-    font-family: "lorem-dotted";
-    src: url(../storage/fonts/Codystar.ttf);
-}
-@font-face {
-    font-family: "lorem-indie";
-    src: url(../storage/fonts/IndieFlower.ttf);
-}
-@font-face {
-    font-family: "lorem-formal";
-    src: url(../storage/fonts/LeagueSpartan.ttf);
-}
-@font-face {
-    font-family: "lorem-futuristic";
-    src: url(../storage/fonts/Quantico.ttf);
+    font-family: "Inter-SemiBold";
+    src: url(../storage/fonts/Inter_18pt-SemiBold.ttf);
 }

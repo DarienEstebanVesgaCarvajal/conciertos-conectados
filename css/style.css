@@ -10,7 +10,7 @@ body{
     color: var(--color-black);
 }
 
-footer{
+header{
     position: fixed;
     top: 0;
     left: 0;
@@ -21,18 +21,18 @@ footer{
     justify-content: space-between;
     padding: 5vw;
 }
-footer img{
+header img{
     height: 6vw;
 }
 
-header{
+main{
     padding: 20vw 3vw 9vw 5vw;
 }
-header h1{
+main h1{
     font-family: "Inter-SemiBold";
     font-size: 8vw;
 }
-header h1 span{
+main h1 span{
     color: var(--color-purple);
 }
 

@@ -20,6 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 5vw;
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1);
 }
 header img{
     height: 6vw;

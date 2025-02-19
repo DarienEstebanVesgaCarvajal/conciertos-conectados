@@ -35,3 +35,32 @@ header h1{
 header h1 span{
     color: var(--color-purple);
 }
+
+form{
+    display: flex;  
+    padding: 5vw;
+    gap: 2vw;   
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh; 
+}
+textarea{
+    border: none;  
+    width: 100%;
+    min-height: 7vw;
+    font-family: "Inter-Regular";  
+    padding: 1vw;  
+    resize: none;  
+    outline: none;  
+}  
+textarea::placeholder {  
+    font-family: "Inter-Regular";  
+    font-size: 6vw;   
+    color: var(--color-black);
+}
+form img{
+    margin: 2vw;  
+    cursor: pointer;  
+    height: 5vh;
+    width: 7vw;
+}

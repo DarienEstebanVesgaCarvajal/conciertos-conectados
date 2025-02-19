@@ -1,11 +1,6 @@
 :root{
-    --lorem-orange: #DB8C6A;
-    --lorem-purple: #845FB3;
-    --lorem-green: #8CBDAE;
-    --lorem-white: #EBEBFF;
-    --lorem-black: #111127;
-    --lorem-gray: #C0C0CF;
-    --lorem-blue: #225CB7;
+    --background-color: linear-gradient(to bottom right, #91B5FD 0%, #F0DDFF 100%);
+    --transparent: rgba(255, 255, 255, 0.2);
 }
 
 @font-face {

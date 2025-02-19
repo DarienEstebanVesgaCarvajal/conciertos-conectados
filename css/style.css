@@ -64,3 +64,36 @@ form img{
     height: 5vh;
     width: 7vw;
 }
+
+.filters {  
+    display: flex;
+    overflow-x: auto;
+    padding: 3vw;
+    gap: 3vw;
+}
+.filters::-webkit-scrollbar{
+    display: none;
+}  
+.filters div{
+    flex: 0 0 auto;
+    width: auto;
+    padding: 2vw;
+    font-family: "Inter-Regular";
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.7vw;
+}
+.one{
+    background: var(--color-ligth-purple);
+}
+.two{
+    background: var(--color-light-yellow);
+}
+.three{
+    background: var(--color-peach);
+}
+.four{
+    background: var(--color-mint);
+}
